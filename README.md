@@ -49,6 +49,34 @@ reports what was freed since you were last logged in. Honestly: **a cancellation
 that happens between your windows will not be seen** -- only what exists while
 you are logged in. That is a limitation of the site, not of the program.
 
+## Daily use (after the first-time setup)
+
+Once sections 1-2 are done (install + Telegram bot), you do **not** repeat them.
+Each time you want to check for slots:
+
+```powershell
+cd D:\cod\hsc-slot-watcher
+```
+
+```powershell
+.venv\Scripts\python.exe -m watcher login
+```
+
+Sign in in the Chrome window (fastest via Diia.Signature); it closes itself once
+the session is saved. Then start the monitor:
+
+```powershell
+.venv\Scripts\python.exe -m watcher run
+```
+
+It scans every date for ~15 minutes and sends new slots `<= 10:30` to Telegram.
+Stop it with `Ctrl+C`.
+
+When Telegram says **"re-login needed"**, just run the `login` command again (you
+can do it in a second window without stopping `run`) -- the monitor picks up the
+new session and continues. Optional one-off checks: `python -m watcher test-notify`
+(Telegram works), `python -m watcher once` (one scan printed to the console).
+
 ## 1. Install (Windows)
 
 Requires Python 3.12 and Google Chrome.
