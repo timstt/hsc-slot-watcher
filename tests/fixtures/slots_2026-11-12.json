@@ -1,0 +1,84 @@
+{
+ "data": [
+  {
+   "startTime": "11:00:00",
+   "stopTime": "11:15:00"
+  },
+  {
+   "startTime": "11:15:00",
+   "stopTime": "11:30:00"
+  },
+  {
+   "startTime": "11:30:00",
+   "stopTime": "11:45:00"
+  },
+  {
+   "startTime": "11:45:00",
+   "stopTime": "12:00:00"
+  },
+  {
+   "startTime": "12:00:00",
+   "stopTime": "12:15:00"
+  },
+  {
+   "startTime": "12:15:00",
+   "stopTime": "12:30:00"
+  },
+  {
+   "startTime": "12:30:00",
+   "stopTime": "12:45:00"
+  },
+  {
+   "startTime": "12:45:00",
+   "stopTime": "13:00:00"
+  },
+  {
+   "startTime": "13:00:00",
+   "stopTime": "13:15:00"
+  },
+  {
+   "startTime": "13:15:00",
+   "stopTime": "13:30:00"
+  },
+  {
+   "startTime": "13:30:00",
+   "stopTime": "13:45:00"
+  },
+  {
+   "startTime": "13:45:00",
+   "stopTime": "14:00:00"
+  },
+  {
+   "startTime": "14:00:00",
+   "stopTime": "14:15:00"
+  },
+  {
+   "startTime": "14:15:00",
+   "stopTime": "14:30:00"
+  },
+  {
+   "startTime": "14:30:00",
+   "stopTime": "14:45:00"
+  },
+  {
+   "startTime": "14:45:00",
+   "stopTime": "15:00:00"
+  },
+  {
+   "startTime": "15:00:00",
+   "stopTime": "15:15:00"
+  },
+  {
+   "startTime": "15:15:00",
+   "stopTime": "15:30:00"
+  },
+  {
+   "startTime": "15:30:00",
+   "stopTime": "15:45:00"
+  },
+  {
+   "startTime": "15:45:00",
+   "stopTime": "16:00:00"
+  }
+ ]
+}

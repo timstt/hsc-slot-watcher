@@ -1,0 +1,20 @@
+# secrets / session
+.env
+storage_state.json
+*.storage_state.json
+data/
+recon*/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# logs / db
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
