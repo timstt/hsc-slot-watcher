@@ -52,10 +52,10 @@ you are logged in. That is a limitation of the site, not of the program.
 ## Daily use (after the first-time setup)
 
 Once sections 1-2 are done (install + Telegram bot), you do **not** repeat them.
-Each time you want to check for slots:
+Each time you want to check for slots (replace the path with your project folder):
 
 ```powershell
-cd D:\cod\hsc-slot-watcher
+cd path\to\hsc-slot-watcher
 ```
 
 ```powershell
@@ -198,7 +198,7 @@ directly): otherwise Playwright can fail with `[WinError 6]` because it does not
 get a valid console. In PowerShell (replace the path with yours):
 
 ```powershell
-$dir = "D:\cod\hsc-slot-watcher"
+$dir = "C:\path\to\hsc-slot-watcher"
 $cmd = "Set-Location '$dir'; .\.venv\Scripts\python.exe -m watcher run"
 $action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-WindowStyle Minimized -NoProfile -Command `"$cmd`"" -WorkingDirectory $dir
 $trigger = New-ScheduledTaskTrigger -AtLogOn
